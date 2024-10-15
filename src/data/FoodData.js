@@ -10,7 +10,7 @@ const FoodData = [
   },
   {
     id: 2,
-    img: "https://png.pngtree.com/png-clipart/20231111/original/pngtree-the-art-of-margherita-pizza-presentation-on-wooden-piece-png-image_13534973.png",
+    img: "https://png.pngtree.com/png-vector/20240727/ourmid/pngtree-traditional-margherita-pizza-from-campania-png-image_13235087.png",
     name: "Margherita Pizza",
     price: 130,
     desc: "A classic Italian pizza topped with fresh tomatoes, mozzarella cheese, basil leaves, and a drizzle of olive oil. Simple yet bursting with flavors, this Margherita Pizza is a timeless favorite that captures the essence of Italian cuisine.",
