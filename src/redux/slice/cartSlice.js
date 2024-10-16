@@ -18,7 +18,7 @@ const cartSlice = createSlice({
             state.cart = state.cart.filter((item)=>item.id !== action.payload.id)
         },
         incrementQty: (state, action) => {
-            state.cart = state.cart.map((item)=>action.payload.id? {...item, qty: item.qty + 1} : item )
+            state.cart = state.cart.map((item)=>item.id === action.payload.id? {...item, qty: item.qty + 1} : item )
         },
         decrementQty: (state, action) => {
             state.cart = state.cart.map((item)=>item.id === action.payload.id ? {...item, qty: item.qty - 1} : item)
