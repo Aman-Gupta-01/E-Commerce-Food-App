@@ -181,12 +181,12 @@ const FoodData = [
   },
   {
     id: 21,
-    img: "https://png.pngtree.com/png-vector/20231019/ourmid/pngtree-homemade-kashi-halwa-png-image_10233917.png",
+    img: "https://mayursweets.in/cdn/shop/files/BadamHalwa-1_750x810.webp?v=1703830434",
     name: "Badam Halwa",
     price: 300,
     desc: "very yummy, bhandare ka halwa",
-    category: "Snacks",
-    rating: 5,
+    category: "Dessert",
+    rating: 4.9,
   },
 ];
 export default FoodData;
