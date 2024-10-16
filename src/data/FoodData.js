@@ -179,5 +179,14 @@ const FoodData = [
     category: "Snacks",
     rating: 4.8,
   },
+  {
+    id: 21,
+    img: "https://png.pngtree.com/png-vector/20231019/ourmid/pngtree-homemade-kashi-halwa-png-image_10233917.png",
+    name: "Badam Halwa",
+    price: 300,
+    desc: "very yummy, bhandare ka halwa".
+    category: "Dessert",
+    rating: 5,
+  },
 ];
 export default FoodData;
