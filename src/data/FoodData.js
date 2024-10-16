@@ -127,7 +127,7 @@ const FoodData = [
   },
   {
     id: 15,
-    img: "https://www.thehattedchef.com.au/wp-content/uploads/2020/10/RISOTTO.png",
+    img: "https://static.vecteezy.com/system/resources/previews/036/473/345/non_2x/ai-generated-mushroom-risotto-on-a-white-plate-on-transparent-background-png.png",
     name: "Mushroom Risotto",
     price: 175,
     desc: "Indulge in creamy and flavorful mushroom risotto, made with Arborio rice, sautéed mushrooms, and a touch of Parmesan cheese. A comforting and sophisticated dinner choice.",
