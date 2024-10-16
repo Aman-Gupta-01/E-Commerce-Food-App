@@ -185,7 +185,7 @@ const FoodData = [
     name: "Badam Halwa",
     price: 300,
     desc: "very yummy, bhandare ka halwa".
-    category: "Dessert",
+    category: "Snacks",
     rating: 5,
   },
 ];
