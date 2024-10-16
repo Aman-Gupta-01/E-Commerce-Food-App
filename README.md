@@ -1,5 +1,5 @@
 # E-Commerce Food app 
-- This app only frontend
+- Frontend Only
 
 
 ### Technology used
@@ -7,6 +7,16 @@
 - redux Toolkit
 - tailwind
 - Dummy Data
+
+
+### Packeges/Dependencies
+-  @reduxjs/toolkit
+-  react-dom
+-  react-hot-toast
+-  react-icons
+-  react-redux
+-  react-router-dom
+-  react-spinners
 
 
 ## Link for App
