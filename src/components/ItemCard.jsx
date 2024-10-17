@@ -9,7 +9,7 @@ function ItemCard({ id, name, price, img, qty }) {
   const dispatch = useDispatch();
 
   return (
-    <div className='bg-white flex items-center gap-4 rounded-xl shadow-lg border mb-4 p-4 relative'>
+    <div className='bg-gray-100 flex items-center gap-4 rounded-xl shadow-lg border mb-4 p-4 relative'>
       {/* Delete button positioned at top right using flex instead of absolute */}
       <MdDelete 
         onClick={() => {
