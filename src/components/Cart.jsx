@@ -25,6 +25,8 @@ function Cart() {
             <MdClose onClick={() => setActiveCart(!activeCart)} className='active:scale-95 select-none cursor-pointer border-2 border-gray-600 text-gray-600 font-bold p-1 text-xl rounded-md hover:border-red-300 hover:text-red-300' />
         </div>
 
+        <div className='overflow-y-scroll h-[25rem]'>
+  
          {cartItem.length > 0 ? (
           cartItem.map((food) => {
             return (
@@ -51,6 +53,8 @@ function Cart() {
         <button onClick={()=> navigate("/success")} className='bg-green-500 shadow-lg h-16 font-bold px-3 py-2 rounded-lg w-[90vw] lg:w-[18vw] active:scale-95 my-5 transition'>Check Out</button>
     </div>
     </div>
+
+    </div>    
 
     <FaCartShopping 
     onClick={() => setActiveCart(!activeCart) }
