@@ -25,7 +25,7 @@ function Cart() {
             <MdClose onClick={() => setActiveCart(!activeCart)} className='active:scale-95 select-none cursor-pointer border-2 border-gray-600 text-gray-600 font-bold p-1 text-xl rounded-md hover:border-red-300 hover:text-red-300' />
         </div>
 
-        <div className='overflow-y-scroll no-scrollbar h-[25rem]'>
+        <div className='overflow-y-scroll h-[25rem]'>
   
          {cartItem.length > 0 ? (
           cartItem.map((food) => {
